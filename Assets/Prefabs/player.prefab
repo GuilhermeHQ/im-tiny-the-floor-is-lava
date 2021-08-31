@@ -131,8 +131,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 2409168923169078282}
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 64
   cameraSpeedX: 10
   cameraSpeedY: -10
+  playerSpeed: 3
+  playerJump: 5
 --- !u!54 &6975622279389498515
 Rigidbody:
   m_ObjectHideFlags: 0
