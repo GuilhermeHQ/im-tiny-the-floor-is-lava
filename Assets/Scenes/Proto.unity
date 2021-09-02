@@ -1556,7 +1556,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh16932
+  m_Name: pb_Mesh16922
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1727,11 +1727,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2409168923226868974, guid: ca66bd8aab03fc44081b0da3755f5435, type: 3}
       propertyPath: layerMask.m_Bits
-      value: 0
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 2409168923226868974, guid: ca66bd8aab03fc44081b0da3755f5435, type: 3}
+      propertyPath: RaycastMaxDistance
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 2409168923226868975, guid: ca66bd8aab03fc44081b0da3755f5435, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2409168923226868975, guid: ca66bd8aab03fc44081b0da3755f5435, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1776,6 +1780,10 @@ PrefabInstance:
     - target: {fileID: 2409168923226868977, guid: ca66bd8aab03fc44081b0da3755f5435, type: 3}
       propertyPath: m_Name
       value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4068737372689806265, guid: ca66bd8aab03fc44081b0da3755f5435, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca66bd8aab03fc44081b0da3755f5435, type: 3}
