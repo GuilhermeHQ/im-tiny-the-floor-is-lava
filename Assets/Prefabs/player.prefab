@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2409168923169078282}
   - component: {fileID: 2409168923169078285}
   - component: {fileID: 2409168923169078284}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 2409168923226868974}
   - component: {fileID: 6975622279389498515}
   - component: {fileID: 4068737372689806265}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,8 +136,9 @@ MonoBehaviour:
     m_Bits: 64
   cameraSpeedX: 10
   cameraSpeedY: -10
-  playerSpeed: 3
+  playerSpeed: 6
   playerJump: 5
+  RaycastMaxDistance: 0.8
 --- !u!54 &6975622279389498515
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -180,7 +181,7 @@ GameObject:
   - component: {fileID: 2409168923909308578}
   - component: {fileID: 2409168923909308581}
   - component: {fileID: 2409168923909308580}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
