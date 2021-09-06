@@ -40,8 +40,9 @@ public class FPcontroller : MonoBehaviour
 
         //Movement
         Vector3 velocity = transform.rotation * new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")).normalized * playerSpeed;
+
+        //Ground Check to avoid double jumping
         velocity.y = Input.GetKeyDown(KeyCode.Space) & Physics.SphereCast(transform.position, .23f, Vector3.down, out hit, RaycastMaxDistance, layerMask) ? playerJump : playerRigidbody.velocity.y;
-        //& Physics.SphereCast(transform.position, .23f, Vector3.down, out hit, .3f, layerMask) 
 
         playerRigidbody.velocity = velocity;
     }
